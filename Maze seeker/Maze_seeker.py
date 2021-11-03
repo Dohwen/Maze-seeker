@@ -85,7 +85,7 @@ for i in range(len(maze_map)): #create an empty "treasuremap" with 1 at the star
 i, j = start 
 treasuremap[i][j] = 1 #initiate starting point
 step = 0 
-print ("treasuremap dimention complete")
+print ("treasuremap dimension complete")
 while treasuremap[end[0]][end[1]] == 0: #loop wont stop until the end point is reached, each loop step +1 
     step += 1
     step_seeker(step)
